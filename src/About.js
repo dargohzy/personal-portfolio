@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Title from './Title'
+
 import ProfilePic from './images/profile-pic.png';
 import './App.css';
 
@@ -28,10 +30,7 @@ function About() {
     return (
         <div className="about">
             <div>
-                <div id="page-title">
-                    <h1>About Me</h1>
-                </div>
-                <hr/>
+                <Title id="page-title" name="About Me"/>
                 <p>{firstPara}</p>
                 <p>{secondPara}</p>
                 {/* <p>
